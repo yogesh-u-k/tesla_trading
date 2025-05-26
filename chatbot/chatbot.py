@@ -28,9 +28,13 @@ def build_chatbot(df: pd.DataFrame) -> Runnable:
      # You can use 'summary' column too if you have
     documents = loader.load()
 
+
+
     # Step 2: Split documents into manageable chunks
     splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
     chunks = splitter.split_documents(documents)
+
+
 
     # Step 3: Embed chunks using Gemini embeddings
     embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
