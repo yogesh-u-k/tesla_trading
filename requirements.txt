@@ -1,0 +1,16 @@
+streamlit
+pandas
+numpy
+streamlit-lightweight-charts
+
+# LangChain and related libraries
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+
+# Vector store and embeddings
+faiss-cpu
+
+# Google Generative AI requires
+google-generativeai

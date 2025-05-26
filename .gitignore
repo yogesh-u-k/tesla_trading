@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.venv/
+env/
+venv/
+tesla/
+
+# VSCode and IDE settings
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter and Streamlit
+.ipynb_checkpoints/
+.streamlit/config.toml
+
+# Logs and cache
+*.log
+*.sqlite
+.cache/
+logs/
+
+# Python-wheel and builds
+build/
+dist/
+*.egg-info/
+
+# Compiled notebooks
+*.nbconvert.ipynb
+
+# FAISS Index Files (if persisted)
+faiss_index/
+index.faiss
+index.pkl
